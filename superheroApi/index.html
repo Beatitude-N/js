@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperHero</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div style="height: 750px; width: 700px; padding: 1px; margin:30px 30px 60px 30px;" class="best">
+    <div class="container">
+        <h1>Search Super Hero Image</h1>
+
+        <button id="getRandomHero">Get Random Super Hero</button><div style="font-weight: bolder; font-size: 30px; font-family: 'Times New Roman', Times, serif; color: rgb(111, 113, 114);">Or</div>
+        <input type="text" id="searchInput" placeholder="Enter your number">
+        <button id="searchButton">Search</button>
+        
+        <div id="heroName"></div>
+<div class="powerstat-container" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) !important;  border-radius: 15px !important; display: none;">    
+    <div class="powerstat-containerB">
+            <div class="powerstats"><u>POWER-STATS</u></div>
+    </div>
+
+    <div class="powerstat-container">
+            <div class="powerstat">Combat: <SPan class="numbers" id="combat"></SPan></div>
+            <div class="powerstat">Intelligence:<SPan class="numbers" id="intelligence"></SPan></div>
+            <div class="powerstat">Power:<SPan class="numbers" id="power"></SPan></div>
+            <div class="powerstat">Speed:<SPan class="numbers" id="speed"></SPan></div>
+            <div class="powerstat">Strength:<SPan class="numbers" id="strength"></SPan></div>
+    </div>
+</div>
+
+        <div id="results"><img src=""></div>
+    </div>
+</div>
+    <script src="script.js"> </script>
+</body>
+</html>

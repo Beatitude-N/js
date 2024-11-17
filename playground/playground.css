@@ -1,0 +1,21 @@
+ button {
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+button.clearbtn{
+    margin-top: 20px;
+    margin-left: 130px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+
+

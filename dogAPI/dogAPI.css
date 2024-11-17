@@ -1,0 +1,32 @@
+h1, h2{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    font-weight: 300;
+}
+
+#demo{
+    color: blue;
+}
+button {
+    justify-content: center;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* Hover effect */
+#changeImage:hover {
+    background-color: #45a049;
+}
+
+#dogImage{
+    text-align: center;
+    justify-content: center;
+}
